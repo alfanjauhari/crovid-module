@@ -1,0 +1,29 @@
+{
+    "name": "alfanjauhari/crovid",
+    "description": "Laravel Package for Fetch Realtime Data Corona Virus",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alfanjauhari",
+            "email": "hi.alfanj@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alfanjauhari\\Crovid\\Providers\\CrovidServiceProvider"
+            ],
+            "aliases": {
+                "Crovid": "Alfanjauhari\\Crovid\\Facades\\Crovid"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Alfanjauhari\\Crovid\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
