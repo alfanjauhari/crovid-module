@@ -6,7 +6,7 @@ Crovid Module mengambil seluruh data dari API publik yang disediakan oleh [Kawal
 
 # Instalasi
 
-Untuk menginstal crovid-module kalian bisa menjalankan perintah `composer require alfanjauhari/crovid-module` di terminal kalian masing-masing.
+Untuk menginstal crovid-module kalian bisa menjalankan perintah `composer require alfanjauhari/crovid` di terminal kalian masing-masing.
 
 # Konfigurasi
 
